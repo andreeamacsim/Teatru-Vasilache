@@ -1,0 +1,37 @@
+<div class="invitation-container">
+ 
+  <div class="invitation-content">
+    <h2>Dragilor,</h2>
+    <p>Vă invităm cu cei mici la Teatrul "Vasilache" să vizionaţi spectacolul  „Scufiţa roşie”, în zilele de:</p>
+    <ul>
+      <li>joi, 7 noiembrie 2024, de la ora 18:00</li>
+      <li>duminică, 10 noiembrie 2024, de la orele 11:00 şi 12:30</li>
+    </ul>
+    <p>Spectacolul ”Scufița roșie” este o adaptare de Mihai Donțu, după Charles Perrault. Regia este semnată de Mihai Donţu, iar scenografia îi aparţine lui Mihai Pastramagiu.</p>
+    <p>Din distribuție fac parte îndrăgiţii actori: Florin Iftode, Marius Rusu, Alin Gheorghiu, Adelina Cojocariu, Ioana Buta, Ana-Maria Apetrei şi Andrei Bordianu.</p>
+    <p>Prețul biletului este 15 lei.</p>
+    <p>Vă aşteptăm cu drag!</p>
+    <p>Până atunci… toate cele bune!</p>
+  
+    <button class="show-ticket-button" (click)="toggleTicketInfo()">→</button>
+  </div>
+
+ 
+  <div class="image-collection" *ngIf="!ticketInfoVisible">
+    <img src="picture1.jpg" alt="Artistic Image 1" class="art-image">
+    <img src="picture2.jpg" alt="Artistic Image 2" class="art-image">
+    <img src="picture3.jpg" alt="Artistic Image 3" class="art-image">
+    <img src="picture5.jpg" alt="Artistic Image 3" class="art-image">
+   
+  </div>
+
+ 
+  <div class="ticket-info-container" [ngClass]="{'show': ticketInfoVisible}">
+    <div class="ticket-info-content">
+      <h3>Informații bilete</h3>
+      <p>Biletele pentru spectacolele Teatrului „Vasilache” se pot achiziționa ONLINE la adresa <a href="https://www.entertix.ro/g/334/teatrul-pentru-copii-si-tineret-vasilache.html" target="_blank">https://www.entertix.ro/g/334/teatrul-pentru-copii-si-tineret-vasilache.html</a>, secțiunea Cumpără Bilet, ori de la sediul instituţiei, de marţi până vineri, între orele 10:30 şi 12:30, dar şi înainte de începerea fiecărui spectacol, în limita locurilor disponibile.</p>
+      <p>Vă aşteptăm cu drag! Până atunci…. toate cele bune.</p>
+    </div>
+  </div>
+</div>
+

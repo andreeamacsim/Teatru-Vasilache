@@ -1,0 +1,145 @@
+.invitation-container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('../../assets/back.jpg');
+  background-size: cover;
+
+  padding: 20px;
+  animation: fadeIn 2s ease-out;
+  flex-direction: row; 
+}
+
+.invitation-content,
+.ticket-info-content {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.85), rgba(223, 46, 46, 0.85));
+  padding: 45px; 
+  border-radius: 15px; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 0 30px rgba(255, 204, 204, 0.5);
+  width: 40%; 
+  max-width: 600px; 
+  text-align: left;
+  color: #b30000;
+  font-family: 'Georgia', serif;
+  animation: slideUp 1.5s ease-out;
+  transition: box-shadow 0.3s ease;
+}
+
+.ticket-info-content {
+  display: none; 
+  width: 55%;
+}
+
+.invitation-content:hover,
+.ticket-info-content:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3), 0 0 50px rgba(255, 204, 204, 0.7);
+}
+
+.invitation-content h2,
+.ticket-info-content h3 {
+  font-size: 2.2em; 
+  color: #b30000;
+  margin-bottom: 15px;
+}
+
+.invitation-content p,
+.ticket-info-content p,
+.invitation-content ul,
+.ticket-info-content ul {
+  font-size: 1.1em; 
+  color: #990000;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.invitation-content ul,
+.ticket-info-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.invitation-content li,
+.ticket-info-content li {
+  margin-bottom: 10px;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.invitation-content li:hover,
+.ticket-info-content li:hover {
+  transform: translateX(10px);
+}
+
+
+.show-ticket-button {
+  background-color: #b30000;
+  color: white;
+  font-size: 1.2em; /* Dimensiune mai mică */
+  padding: 8px 8px; /* Dimensiune mai mică */
+  border-radius: 50%; /* Rotund complet */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 50px; /* Lățime fixă pentru a fi rotund */
+  height: 50px; /* Înălțime fixă pentru a fi rotund */
+}
+
+.show-ticket-button:hover {
+  background-color: #990000;
+}
+
+.show-ticket-button::after {
+
+  font-size: 1.2em;
+  margin-left: 0; /* Nu mai e nevoie de margine stânga */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.image-collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+.art-image {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.art-image:hover {
+  transform: scale(1.1);
+}
+
+.ticket-info-container {
+  display: flex; /* Sau orice alte stiluri necesare pentru container */
+  justify-content: center;
+}
+
+.ticket-info-container.hidden {
+  display: none; /* Ascunde containerul de bilete */
+}
+
