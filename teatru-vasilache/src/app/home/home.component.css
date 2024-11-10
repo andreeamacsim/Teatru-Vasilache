@@ -75,14 +75,14 @@
 .show-ticket-button {
   background-color: #b30000;
   color: white;
-  font-size: 1.2em; /* Dimensiune mai mică */
-  padding: 8px 8px; /* Dimensiune mai mică */
-  border-radius: 50%; /* Rotund complet */
+  font-size: 1.2em; 
+  padding: 8px 8px; 
+  border-radius: 50%; 
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 50px; /* Lățime fixă pentru a fi rotund */
-  height: 50px; /* Înălțime fixă pentru a fi rotund */
+  width: 50px;
+  height: 50px; 
 }
 
 .show-ticket-button:hover {
@@ -92,10 +92,10 @@
 .show-ticket-button::after {
 
   font-size: 1.2em;
-  margin-left: 0; /* Nu mai e nevoie de margine stânga */
+  margin-left: 0; 
 }
 
-/* Animations */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -135,11 +135,11 @@
 }
 
 .ticket-info-container {
-  display: flex; /* Sau orice alte stiluri necesare pentru container */
+  display: flex; 
   justify-content: center;
 }
 
 .ticket-info-container.hidden {
-  display: none; /* Ascunde containerul de bilete */
+  display: none; 
 }
 

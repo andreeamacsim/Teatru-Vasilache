@@ -1,20 +1,19 @@
 
 .header {
-  position: fixed; /* Face header-ul fix */
-  top: 0; /* Îl poziționează în partea de sus a paginii */
+  position: fixed; 
+  top: 0; 
   left: 0;
-  width: 100%; /* Îl face să ocupe toată lățimea paginii */
-  z-index: 1000; /* Asigură-te că header-ul stă deasupra altor elemente */
-  background: linear-gradient(135deg, #e47063, #c0392b); /* Păstrează stilul de fundal */
+  width: 100%; 
+  z-index: 1000; 
+  background: linear-gradient(135deg, #e47063, #c0392b); 
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 0; /* Elimină colțurile rotunjite pentru un aspect uniform */
+  border-radius: 0; 
 }
 
-/* Stil pentru logo și titlu */
 .logo-title {
   flex: 1;
   color: #fff;
@@ -28,16 +27,16 @@
   color: #f1e6e6;
 }
 
-/* Stil pentru navigație */
+
 .nav-links {
   flex: 2;
-  margin-left: 50px; /* Mută link-urile mai spre dreapta */
+  margin-left: 50px; 
 }
 
 .nav-links ul {
   list-style: none;
   display: flex;
-  gap: 20px; /* Reduce spațiul dintre link-uri */
+  gap: 20px;
   padding: 0;
   margin: 0;
 }
@@ -46,7 +45,7 @@
   position: relative;
 }
 
-/* Stil pentru link-urile de navigare */
+
 .nav-links a {
   text-decoration: none;
   color: white;
@@ -65,7 +64,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Efect de subliniere la hover */
+
 .nav-links a::after {
   content: '';
   position: absolute;
@@ -82,7 +81,6 @@
   transform: scaleX(1);
 }
 
-/* Responsive pentru mobile */
 @media (max-width: 768px) {
   .nav-links ul {
     flex-direction: column;
