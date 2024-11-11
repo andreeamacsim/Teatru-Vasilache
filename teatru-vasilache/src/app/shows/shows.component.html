@@ -1,1 +1,24 @@
-<p>shows works!</p>
+<div class="gallery">
+    <div *ngFor="let image of pagedImages; let i = index" class="image-container" (click)="openModal(i)">
+      <div class="image-card">
+        <img [src]="image.url" alt="{{image.title}}" class="gallery-image">
+      </div>
+    </div>
+  </div>
+  
+  <!-- Butoane de navigare -->
+  <div class="pagination">
+    <button (click)="prevPage()" [disabled]="currentPage === 1">Înapoi</button>
+    <span>Pagina {{ currentPage }}</span>
+    <button (click)="nextPage()" [disabled]="currentPage * imagesPerPage >= images.length">Înainte</button>
+  </div>
+  
+  <!-- Modal pentru detalii -->
+  <div class="modal" *ngIf="selectedImage !== null" (click)="closeModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <h2>{{ images[selectedImage].title }}</h2>
+      <p>{{ images[selectedImage].description }}</p>
+      <button class="close-btn" (click)="closeModal()">Închide</button>
+    </div>
+  </div>
+  
