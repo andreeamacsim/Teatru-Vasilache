@@ -1,1 +1,19 @@
-<p>news works!</p>
+<div class="news-container">
+    <h1 class="news-title">Ultimele Știri</h1>
+    <div class="news-cards">
+      <div class="news-card" *ngFor="let news of newsList">
+        <div class="news-card-content">
+          <div class="news-card-front">
+            <img [src]="news.imageUrl" alt="Noutate" />
+            <h2>{{ news.title }}</h2>
+          </div>
+          <div class="news-card-back">
+            <h2>{{ news.title }}</h2>
+            <p>{{ news.description }}</p>
+            <a [href]="news.link" target="_blank">Citește mai mult</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
