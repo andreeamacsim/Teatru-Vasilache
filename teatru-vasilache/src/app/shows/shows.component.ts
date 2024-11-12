@@ -17,7 +17,7 @@ export class ShowsComponent {
     { url: 'public/fram.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' },
     { url: 'public/luceafarul.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' }
 
-    // adaugă mai multe imagini aici
+ 
   ];
 
   currentPage: number = 1;
