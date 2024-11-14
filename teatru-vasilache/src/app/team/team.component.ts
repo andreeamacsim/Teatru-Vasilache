@@ -8,24 +8,24 @@ import { Component } from '@angular/core';
 export class TeamComponent {
   teamMembers = [
     {
-      name: 'Ionel Doru Fercal',
+      name: 'Marius - Petru Rogojinschi',
       role: 'Manager',
-      image: 'assets/images/fercal.jpg',
+      image: 'public/actor1.jpeg',
     },
     {
-      name: 'Carmen Moruz',
-      role: 'Artistic Director',
-      image: 'assets/images/moruz.jpg',
+      name: 'Marius Rusu',
+      role: 'Actor',
+      image: 'public/actor2.jpg',
     },
     {
-      name: 'Andrei Savin',
-      role: 'Technical Director',
-      image: 'assets/images/savin.jpg',
+      name: 'Florin Iftode',
+      role: 'Actor mânuitor păpuși',
+      image: 'public/actor3.jpeg',
     },
     {
-      name: 'Simona Apăvăloae',
-      role: 'PR Specialist',
-      image: 'assets/images/apavaloae.jpg',
+      name: 'Anamaria Chelaru',
+      role: 'Actor mânuitor păpuși',
+      image: 'public/actor4.jpeg',
     },
     {
       name: 'Ionel Doru Fercal',
