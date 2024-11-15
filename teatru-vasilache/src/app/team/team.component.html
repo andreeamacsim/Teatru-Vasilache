@@ -1,15 +1,14 @@
 <div class="team-section">
-    <h2>Our Team</h2>
-    <div class="team-container">
-      <div class="team-card" *ngFor="let member of teamMembers">
-        <div class="card-image">
-          <img [src]="member.image" [alt]="member.name" />
-        </div>
-        <div class="card-info">
-          <h3>{{ member.name }}</h3>
-          <p>{{ member.role }}</p>
-        </div>
+  <h2 class="animated-title">Echipa noastră</h2>
+  <div class="team-container">
+    <div class="team-card" *ngFor="let member of teamMembers">
+      <div class="card-image" *ngIf="member.image">
+        <img [src]="member.image" [alt]="member.name" />
+      </div>
+      <div class="card-info" [class.no-image]="!member.image">
+        <h3>{{ member.name }}</h3>
+        <p>{{ member.role }}</p>
       </div>
     </div>
   </div>
-  
+</div>
