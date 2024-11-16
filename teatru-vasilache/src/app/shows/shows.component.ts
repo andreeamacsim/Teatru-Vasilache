@@ -15,7 +15,13 @@ export class ShowsComponent {
     { url: 'public/mcm.jpg', title: 'Muc cel mic', description: 'Descrierea spectacolului 6' },
     { url: 'public/ratusca.jpg', title: 'Spectacol 7', description: 'Descrierea spectacolului 7' },
     { url: 'public/fram.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' },
-    { url: 'public/luceafarul.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' }
+    { url: 'public/luceafarul.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' },
+    { url: 'public/nelugascanelu.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' },
+    { url: 'public/miorita.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' },
+    { url: 'public/copiii.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' },
+    { url: 'public/pupaza.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' },
+    { url: 'public/elefantul.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' },
+    { url: 'public/capra.jpg', title: 'Spectacol 8', description: 'Descrierea spectacolului 8' },
 
  
   ];
