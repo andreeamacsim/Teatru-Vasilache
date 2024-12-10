@@ -1,0 +1,64 @@
+
+<div class="funding-container">
+    <h2>Documente financiare</h2>
+    <p>Pentru a accesa documentele și informațiile financiare disponibile, poți descărca următoarele:</p>
+    <ul class="document-list">
+      <li>
+        <span class="document-title">Plan management_2021_2024</span>
+        <a href="public/Plan management_2021_2024.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Regulament de organizare şi funcţionare</span>
+        <a href="public/regulament.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Raport de activitate şi management</span>
+        <a href="public/Teatrul Vasilache_raport activitate_ 01.05.2017_ 30.04.2020.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Raport de activitate Teatrul Vasilache</span>
+        <a href="public/Raport de activitate_2021.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Performanţe financiare spectacole</span>
+        <a href="public/performante_financiare_spectacole.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Buget</span>
+        <a href="public/Buget_2011.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Declarație 205</span>
+        <a href="public/Declaratie_205.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Execuţie buget</span>
+        <a href="public/executie_buget2010.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Strategia anuala de achizitie publica pe anul 2024</span>
+        <a href="public/strategie.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Lista funcțiilor din cadrul Teatrului pentru Copii și Tineret ”Vasilache” care intră în categoria personalului plătit din fonduri publice conform Legii nr.153/2017
+           la data de 30.09.2024</span>
+        <a href="public/lista functii teatru cf art 33 din legea salarizarii_30_09_2024.pdf" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title">Codul de conduita Etica a Personalului din cadrul Teatrului Vasilache</span>
+        <a href="public/codetic.doc" target="_blank" class="download-button">Download</a>
+      </li>
+      <li>
+        <span class="document-title" (click)="toggleDropdown()">
+          Declarații de avere
+          <span [class.expanded]="isDropdownOpen">▼</span>
+        </span>
+        <ul class="dropdown-list" *ngIf="isDropdownOpen">
+          <li *ngFor="let document of declaratiiDeAvere">
+            <span class="document-title">{{ document.name }}</span>
+            <a [href]="document.link" target="_blank" class="download-button">Download</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+</div>
