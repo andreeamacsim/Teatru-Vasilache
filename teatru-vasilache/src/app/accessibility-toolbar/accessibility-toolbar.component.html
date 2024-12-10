@@ -1,0 +1,14 @@
+
+<button class="accessibility-toggle-button" (click)="toggleToolbar()">
+    <img src="public/sign.png" alt="Accessibility Icon" />
+  </button>
+  
+  <div class="accessibility-toolbar" *ngIf="isToolbarVisible">
+    <button (click)="increaseTextSize()">Mărește textul</button>
+    <button (click)="decreaseTextSize()">Micșorează textul</button>
+    <button (click)="toggleHighContrast()">Alb - Negru</button>
+    <button (click)="invertColors()">Inversează culorile</button>
+    <button (click)="underlineLinks()">Subliniază link-urile</button>
+    <button (click)="resetAccessibility()">Resetează</button>
+  </div>
+  

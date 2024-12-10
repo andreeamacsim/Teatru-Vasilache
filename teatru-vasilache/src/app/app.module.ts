@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FundingComponent } from './funding/funding.component';
+import { AccessibilityToolbarComponent } from './accessibility-toolbar/accessibility-toolbar.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FundingComponent } from './funding/funding.component';
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    FundingComponent
+    FundingComponent,
+    AccessibilityToolbarComponent
   ],
   imports: [
     BrowserModule,

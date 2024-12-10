@@ -5,3 +5,12 @@ body, html {
     box-sizing: border-box;
   }
   
+  .high-contrast {
+    background: #000000 !important;
+    color: #ffffff !important;
+  }
+  
+  .high-contrast a {
+    color: #00ff00 !important;
+  }
+  
