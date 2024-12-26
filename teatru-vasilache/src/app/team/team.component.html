@@ -3,7 +3,7 @@
   <div class="team-container">
     <div class="team-card" *ngFor="let member of teamMembers">
       <div class="card-image" *ngIf="member.image">
-        <img [src]="member.image" [alt]="member.name" />
+        <img [src]="'/public/' + member.image" [alt]="member.name" />
       </div>
       <div class="card-info" [class.no-image]="!member.image">
         <h3>{{ member.name }}</h3>
