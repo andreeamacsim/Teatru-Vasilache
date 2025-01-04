@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AccessibilityToolbarService } from '../accessibility-toolbar.service'; 
+
 
 @Component({
   selector: 'app-accessibility-toolbar',
@@ -7,11 +9,18 @@ import { Component } from '@angular/core';
 })
 export class AccessibilityToolbarComponent {
   
-  isToolbarVisible: boolean = false;
+
   private currentFontSize: number = 16; 
+  isToolbarVisible: boolean = false;
+
+  constructor(private toolbarService: AccessibilityToolbarService) {
+    this.toolbarService.currentVisibility.subscribe(visible => {
+      this.isToolbarVisible = visible;
+    });
+  }
 
   toggleToolbar() {
-    this.isToolbarVisible = !this.isToolbarVisible;
+    this.toolbarService.toggleToolbar();
   }
 
  

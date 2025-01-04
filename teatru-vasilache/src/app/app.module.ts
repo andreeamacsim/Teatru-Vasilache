@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FundingComponent } from './funding/funding.component';
 import { AccessibilityToolbarComponent } from './accessibility-toolbar/accessibility-toolbar.component';
+import { AccessibilityToolbarService } from './accessibility-toolbar.service';
 
 @NgModule({
   declarations: [
