@@ -31,11 +31,9 @@ Make sure you have the following installed on your system:
   cd Teatru-Vasilache
 
 3.Install dependencies:
-   ```bash
   npm install
 
 4.Start the development server:
-   ```bash
    ng serve
 
 
