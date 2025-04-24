@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    environment:
+      - MONGO_INITDB_DATABASE=theaterDB
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  shows-service:
+    build:
+      context: ./shows-service  # presupune că ai un folder shows-service/
+      dockerfile: Dockerfile
+    container_name: shows-service
+    depends_on:
+      - mongo
+    ports:
+      - "3002:3002"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/theaterDB
+
+  teams-service:
+    build:
+      context: ./team-service  # presupune că ai un folder team-service/
+      dockerfile: Dockerfile
+    container_name: teams-service
+    depends_on:
+      - mongo
+    ports:
+      - "3001:3001"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/theaterDB
+    volumes:
+      - ./team-service/public:/app/public  # montează folderul "public" specific
+
+volumes:
+  mongo-data:

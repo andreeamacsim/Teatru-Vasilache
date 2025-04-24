@@ -14,11 +14,11 @@ export class ShowsComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    this.http.get<any[]>('http://localhost:3000/api/shows').subscribe(
+    this.http.get<any[]>('http://localhost:3002/api/shows').subscribe(
       (data) => {
         this.images = data.map(show => ({
           ...show,
-          url: `http://localhost:3000/${show.image}`, 
+          url: `http://localhost:3002/${show.image}`, 
         }));
       },
       (error) => {

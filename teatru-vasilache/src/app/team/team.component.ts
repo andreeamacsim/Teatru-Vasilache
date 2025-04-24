@@ -16,7 +16,7 @@ export class TeamComponent implements OnInit {
   }
 
   fetchTeamMembers(): void {
-    this.http.get<any[]>('http://localhost:3000/api/team')
+    this.http.get<any[]>('http://localhost:3001/api/team')
       .subscribe(
         (data) => {
           this.teamMembers = data;
