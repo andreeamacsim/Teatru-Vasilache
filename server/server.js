@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json()); 
 
 
-mongoose.connect('mongodb://localhost:27017/theaterDB', {
+mongoose.connect('mongodb://mongo:27017/theaterDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -37,12 +37,12 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.get('/api/team', async (req, res) => {
   try {
     const teamMembers = await TeamMember.find(); 
+    console.log('Team members:', teamMembers);  // Adaugă un log pentru a verifica datele
     res.json(teamMembers);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
 });
-
 
 app.get('/api/shows', async (req, res) => {
   try {
