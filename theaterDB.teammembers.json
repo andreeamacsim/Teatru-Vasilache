@@ -1,0 +1,226 @@
+[{
+  "_id": {
+    "$oid": "677920a703bd29de731d49ee"
+  },
+  "name": "Marius - Petru Rogojinschi",
+  "role": "Manager",
+  "image": "actor1.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779219403bd29de731d49f2"
+  },
+  "name": "Marius Rusu",
+  "role": "Actor",
+  "image": "actor2.jpg"
+},
+{
+  "_id": {
+    "$oid": "677923fb03bd29de731d49f4"
+  },
+  "name": "Anamaria Chelaru",
+  "role": "Actor mânuitor păpuși",
+  "image": "actor4.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779240803bd29de731d49f6"
+  },
+  "name": "Alin Gheorghiu",
+  "role": "Actor mânuitor păpuși",
+  "image": "alin.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779241f03bd29de731d49f8"
+  },
+  "name": "Andrei Iurescu",
+  "role": "Actor mânuitor păpuși",
+  "image": "actor6.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779242803bd29de731d49fa"
+  },
+  "name": "Cosmin Tanasă",
+  "role": "Actor mânuitor păpuși",
+  "image": "actor7.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779243103bd29de731d49fc"
+  },
+  "name": "Adelina Cojocariu",
+  "role": "Actor mânuitor păpuși",
+  "image": "actor8.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779243a03bd29de731d49fe"
+  },
+  "name": "Pavel Petraşi",
+  "role": "Actor mânuitor păpuși",
+  "image": "actor9.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779244703bd29de731d4a00"
+  },
+  "name": "Renata Voloşcu",
+  "role": "Actor mânuitor păpuși",
+  "image": "actor10.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779245103bd29de731d4a02"
+  },
+  "name": "Andrei Bordianu",
+  "role": "Actor",
+  "image": "actor11.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779245c03bd29de731d4a04"
+  },
+  "name": "Ana-Maria Apetrei",
+  "role": "Actriță",
+  "image": "actor12.jpg"
+},
+{
+  "_id": {
+    "$oid": "677924ac03bd29de731d4a06"
+  },
+  "name": "Oana-Marilena Asofiei",
+  "role": "Actor mânuitor păpuși",
+  "image": "actor13.jpg"
+},
+{
+  "_id": {
+    "$oid": "677924d603bd29de731d4a08"
+  },
+  "name": "Ioana-Maria Buta",
+  "role": "Actor mânuitor păpuși",
+  "image": "actor14.jpg"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a0a"
+  },
+  "name": "Aurica Dobrescu",
+  "role": "Actriță (colaborator)",
+  "image": "actor15.jpg"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a0b"
+  },
+  "name": "Ibica Leonte",
+  "role": "Actriță (colaborator)",
+  "image": "actor16.jpg"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a0c"
+  },
+  "name": "Mihaela Ştempel",
+  "role": "Actor mânuitor păpuși",
+  "image": "actor17.jpeg"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a0d"
+  },
+  "name": "Virgil Corodeanu",
+  "role": "Maestru lumini sunet"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a0e"
+  },
+  "name": "Aurel Achiţe",
+  "role": "Recuziter"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a0f"
+  },
+  "name": "Manuiel Drughi",
+  "role": "Regizor scenă"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a10"
+  },
+  "name": "Marius Gemiga",
+  "role": "Operator lumini, imagine, sunet"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a11"
+  },
+  "name": "Maricel Urieşu",
+  "role": "Croitor"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a12"
+  },
+  "name": "Cristian Fluerariu",
+  "role": "Recuziter"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a13"
+  },
+  "name": "Alina Mirabela Tcaciuc",
+  "role": "Plasator sală"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a14"
+  },
+  "name": "Constantin Aursulesei",
+  "role": "Lăcătuş montator"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a15"
+  },
+  "name": "Dan Strătianu",
+  "role": "Recuziter"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a16"
+  },
+  "name": "Nicoleta Macsim",
+  "role": "Contabil șef"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a17"
+  },
+  "name": "Daniela Rădulescu",
+  "role": "Șef serviciu tehnic administrativ resurse umane"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a18"
+  },
+  "name": "Mariana Bucataru",
+  "role": "Secretar PR"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a19"
+  },
+  "name": "Valentin Mintianschi",
+  "role": "Impresar artistic"
+},
+{
+  "_id": {
+    "$oid": "6779251303bd29de731d4a1a"
+  },
+  "name": "Ioan Gheorghe Andronic",
+  "role": "Conducător auto"
+}]
